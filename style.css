@@ -1,9 +1,10 @@
 body{
     min-height: 100vh;
-    background: #00bb00;
+    background: #4b4b4b;
     font-family: sans-serif;
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 p {
     font-size: 1.   3125rem;
@@ -15,8 +16,8 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 28rem;
+    justify-content: center;
+    width: 25%;
     background: #fff;
     padding: 4rem;
     border-radius: 0.5rem;
@@ -25,7 +26,6 @@ form{
 label {
     width: 100%;
     color: #777;
-    align-items: flex-start;
     transition: 0.15s linear;
 }
 
@@ -36,14 +36,14 @@ label:focus-within{
 input {
     font-size: 1 .1875rem;
     color: #404040;
-    padding: 1rem;
     width: 100%;
-    border: none;
-    border-color: #abd8ab;
+    border: 0.3vh solid #000;
+    border-color: #000000;
     border-bottom-width: 1px;
     border-bottom-style: dotted;
     margin-bottom: 3rem;
     transition: 0.15s linear;
+    height: 5vh;
 }
 
 button {
